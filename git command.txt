@@ -43,7 +43,16 @@ git push -u origin master
 git remote -v
 git remote rm origin
 
+创建并切换分支
 $ git checkout -b dev
 git checkout命令加上-b参数表示创建并切换，相当于以下两条命令：
 $ git branch dev
 $ git checkout dev
+合并分支
+git merge dev
+查看
+git branch
+删除
+git branch -d dev
+切换分支
+git switch -c dev
