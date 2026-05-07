@@ -1,0 +1,21 @@
+git init
+
+git add readme.txt
+
+git commit -m "wrote a readme file"
+
+git status
+
+git diff readme.txt 
+
+git log
+
+git log --pretty=oneline
+
+git reset --hard HEAD^
+
+git reset --hard HEAD~1
+
+git reset --hard 8d677985e3b91eb30cf8f47109241a9352a99ea3
+
+git reflog
