@@ -39,3 +39,11 @@ git checkout其实是用版本库里的版本替换工作区的版本，无论�
 git add .
 git remote add origin git@github.com:yaobukejicwt/final.git
 git push -u origin master
+
+git remote -v
+git remote rm origin
+
+$ git checkout -b dev
+git checkout命令加上-b参数表示创建并切换，相当于以下两条命令：
+$ git branch dev
+$ git checkout dev
